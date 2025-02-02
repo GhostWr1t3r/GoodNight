@@ -1,5 +1,8 @@
 # 🌙 **GoodNight Has Arrived!** ✨  
 
+![GoodNight.gif](https://goodnight.net3lix.world/GoodNight.gif)
+
+
 A safe haven for **textroverts** to connect, share, and love.  
 
 ## 🛡️ **Why GoodNight?**  
@@ -22,3 +25,5 @@ Step into a world where your words truly matter.
 
 💡 Built by **GhostWr1t3r** Monitored by [NET3LIX](https://net3lix.world) 🏴‍☠️
 💀 _Stay safe, stay anonymous._ 
+
+
