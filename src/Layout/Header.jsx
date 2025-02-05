@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useChat } from '../contextApi/ChatContext';
-import { Users } from 'lucide-react';
+import { Users, Github } from 'lucide-react';
 
 const Header = () => {
     const { onlineUsers, receiver, setIsTyping, setMessage, setReceiver } = useChat();
@@ -15,6 +15,10 @@ const Header = () => {
 
     const handleDiscordClick = () => {
         window.open('https://discord.com/invite/bstJfQT3AZ', '_blank');
+    };
+
+    const handleGithubClick = () => {
+        window.open('https://github.com', '_blank');
     };
 
     return (
@@ -41,8 +45,19 @@ const Header = () => {
                             </a>
                         </div>
 
-                        {/* Right Section: Discord + Online Users */}
+                        {/* Right Section: GitHub + Discord + Online Users */}
                         <div className="flex items-center gap-3 sm:gap-4 ml-auto">
+                            {/* GitHub Button */}
+                            <button
+                                onClick={handleGithubClick}
+                                className="flex items-center gap-2 px-3 py-2 rounded-xl 
+                                         bg-zinc-500/20 hover:bg-zinc-500/30 
+                                         border border-zinc-500/20 transition-all duration-300"
+                            >
+                                <Github size={16} className="text-zinc-400"/>
+                                <span className="text-sm text-white hidden sm:block">GitHub</span>
+                            </button>
+
                             {/* Discord Button */}
                             <button
                                 onClick={handleDiscordClick}
