@@ -18,7 +18,7 @@ const Header = () => {
     };
 
     const handleGithubClick = () => {
-        window.open('https://github.com', '_blank');
+        window.open('https://github.com/GhostWr1t3r/GoodNight', '_blank');
     };
 
     return (
